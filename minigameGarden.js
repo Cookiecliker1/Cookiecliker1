@@ -134,7 +134,7 @@ M.launch=function()
 				costM:100000000,
 				ageTick:1,
 				ageTickR:1,
-				mature:50,
+				mature:10,
 				children:['queenbeet'],
 				effsStr:'<div class="green">&bull; '+loc("CpS")+' +1%</div><div class="green">&bull; '+loc("harvest when mature for +%1 of CpS (max. %2% of bank)",[Game.sayTime(30*60*Game.fps),3])+'</div>',
 				q:'A favorite among cooks, this large berry has a crunchy brown exterior and a creamy red center. Excellent in pies or chicken stews.',
