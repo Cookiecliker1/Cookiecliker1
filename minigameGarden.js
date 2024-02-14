@@ -875,11 +875,11 @@ M.launch=function()
 		
 		
 		M.soils={
-			'Elliots Soil':{
-				name:loc("Elliots Soil"),
+			'Dirt':{
+				name:loc("Dirt"),
 				icon:0,
-				tick:0.1,
-				effMult:50,
+				tick:5,
+				effMult:1,
 				weedMult:1,
 				req:0,
 				effsStr:'<div class="gray">&bull; '+loc("tick every %1",'<b>'+Game.sayTime(5*60*Game.fps)+'</b>')+'</div>',
