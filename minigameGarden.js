@@ -130,7 +130,7 @@ M.launch=function()
 			'bakeberry':{
 				name:'Bakeberry',
 				icon:8,
-				cost:0.1,
+				cost:45,
 				costM:100000000,
 				ageTick:1,
 				ageTickR:1,
